@@ -1,0 +1,705 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/lato-black-webfont.eot');
+  src: url('../fonts/lato/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-black-webfont.woff') format('woff'), url('../fonts/lato/lato-black-webfont.ttf') format('truetype'), url('../fonts/lato/lato-black-webfont.svg#latoblack') format('svg');
+  font-weight: 100;
+}
+
+body {font-family: 'Lato',Sans-Serif;width: auto;clear: both;color: #fff;font-size: 20px;letter-spacing: 3px;margin: 0px;transition: scroll 0.3s ease-in-out; -webkit-animation:bugfix infinite 1s}
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;}}
+
+* a, a{text-decoration:none;color: #fff;transition: all 0.3s ease-in-out}
+* a:hover, * a:active{background-color: #fff;color: #000}
+
+.a-email a:hover{
+    background-color: transparent;
+    color:#CC9900
+}
+.g-plus a:hover{
+    background-color: transparent;
+    color:#D34836
+}
+.fb a:hover{
+    color: #45619D;
+    background-color: transparent
+}
+.twitter a:hover{
+    color: #0084B4;
+    background-color: transparent
+}
+.left-align{float:left}
+.right-align{float: right !important;margin-right: 10px}
+.hidden-div{display: none}
+
+label
+{
+    position: absolute;
+    left:0;
+    top: 25px;
+    display:none;
+    height:20px;
+    padding:17px;
+    font-size:20px;
+    color:#fff;
+    transition:color .3s ease-in-out;
+    cursor: pointer;
+    margin:0;
+    //background:rgba(0, 0, 0, .4);
+    z-index: 2
+}
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.active-link
+{
+    background-color: #fff;color: #000
+}
+.edu-line-height
+{
+    line-height: 30px
+}
+
+.center-align
+{
+    text-align:center;
+}
+
+#reachMeDivLabel, #hobbiesDivLabel, #eduDivLabel, #expDivLabel
+{
+    width: 40px;
+    float: left;
+    padding: 10px;
+    font-size: 35px;
+    margin-left: 10px;
+    vertical-align: central;
+    transition: all 0.3s ease-in-out
+}
+
+#statusMsg
+{
+    margin-top: 15px;
+    margin-left: 5px;
+    float: right
+}
+.red-border
+{
+    border: thin solid #880000 !important
+}
+
+.opacity0
+{
+    opacity: 0
+}
+
+.social-container
+{
+    padding-left: 30px;
+    height: 100px
+}
+.social-div
+{
+    background: url(../images/SocialMedia/FlatSocialIcons.png) no-repeat scroll;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 5px
+}
+
+.facebook-div
+{
+    background-position: -188px -205px
+}
+
+.g-div
+{
+    background-position: -108px -290px
+}
+
+/*.facebook-div a, g-div a
+{
+    width: 60px;
+    height: 60px
+}*/
+.wrapper
+{
+    background-color:#006699;/*#00aba9,#1abc9c;*/
+    padding: 250px 200px 150px 180px
+}
+
+.wrapper-text
+{
+    color: #fff;
+    font-weight: normal;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 4em
+}
+
+.header
+{
+    background-color: #006699;/*#00aba9,#1abc9c;*/
+    margin: 0% auto;
+    float: left;
+    width: 100%;
+    height:auto;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out
+}
+.fixed-div
+{
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px
+}
+
+.fixed-bg
+{
+    position: fixed !important;
+    top: 0px !important;
+    z-index:-1;
+}
+.intro1
+{
+    padding: 20px;
+    min-height: 75px;
+    padding-left: 75px
+}
+
+.intro2
+{
+    text-align:right;
+    padding: 20px;
+    padding-right: 100px;
+    min-height: 50px
+}
+
+.intro3
+{
+    text-align: center;
+    padding: 20px 200px 20px 20px;
+    min-height: 40px
+}
+
+.intro4
+{
+    text-align:center;
+    min-height: 50px;
+    padding-left: 30px;
+    padding-right: 400px
+}
+
+.intro5
+{
+    text-align:right;
+    padding: 20px;
+    padding-right: 150px;
+    min-height: 50px
+}
+
+.intro6
+{
+    padding: 20px;
+    min-height: 75px;
+    padding-left: 200px
+}
+.intro7
+{
+    padding: 20px;
+    min-height: 80px;
+    padding-left: 300px
+}
+
+#reachMeDivLabel div, #hobbiesDivLabel div, #eduDivLabel div, #expDivLabel div
+{
+    padding: 4px;
+    text-align: center;
+}
+
+.pad-top
+{
+    padding-top:150px
+}
+
+
+.header-content
+{
+    background-color: #006699/*#1abc9c*/
+}
+
+.edu-content, .hobbies-content, .exp-content
+{
+    /*background-color:#006699;/*#1abc9c;*/
+    /*margin: 0% auto;*/
+    float: left;
+    width: 100%;
+    height:auto;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 25px;
+    min-height:200px
+}
+
+.exp-content{background-color: #CC3300}
+.edu-content{background-color:#666600}
+.hobbies-content{background-color:#CC9900}
+.hobbies-text, .exp-text
+{
+    width: 80%
+}
+
+.header.title h2
+{
+    color: #fff
+}
+
+.contact-us
+{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left:40px
+}
+
+.cell-number
+{
+    font-size: 35px;
+    padding-top:10px
+}
+
+.call-avaibility
+{
+    font-size: 12px;
+    margin-left: 75px;
+    margin-top: 3px
+}
+
+.title
+{
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 20px;
+    transition:all 0.3s ease-in-out
+}
+
+.title-big
+{
+    font-size:30px;
+    font-weight:100
+}
+
+.navigation-div
+{
+    width: 100%;
+    float: left;
+    background-color:#006699;/*#1abc9c;*/
+    height: auto
+}
+
+.navigation-div ul
+{
+    list-style:none;
+    display:block;
+    float: right 
+}
+
+.navigation-div ul li
+{
+    display: inline
+}
+.navigation-div ul li a
+{
+    transition: background-color 0.3s ease-in-out;
+    margin: 4px;
+    /*margin-right: 20px;*/
+    height: 40px;
+    padding: 17px;
+    border-radius:4px
+}
+
+.navigation-div ul li a:hover
+{
+    background-color: #fff;
+    color: #000
+}
+
+.nav[role="off-canvas"]>ul>li
+{
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    transition-property: left,box-shadow, color, opacity, padding-left;
+}
+
+.display-message
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px
+}
+
+.main-content
+{
+    color: #000;
+    min-height: 720px;
+    float: left;
+    width: 100%;
+    transition: scroll 0.3s ease-in-out;
+    background-color: transparent
+}
+
+
+
+.backkground-image-container
+{
+    position: absolute;
+    top: 720px;
+    width: 100%;
+    z-index: -1;
+}
+.footer
+{
+    background-color:#3A2E1E;/*#7B2C1D;/*#253F3C;*/
+    min-height: 500px;
+    float: left;
+    width: 100%;
+    color:#fff
+}
+
+.footer-left
+{
+    float: left;
+    margin: 20px;
+    /*padding: 10px;*/
+    margin-left:20px
+}
+
+.footer-highlight
+{
+    font-size:40px;
+    font-weight: bold;
+    padding-right: 4px;
+    color:#fff
+}
+
+.footer-right
+{
+    float: right;
+    margin: 20px;
+    padding: 30px;
+    margin-right: 40px;
+    min-width: 300px
+}
+
+.footer-right-header
+{
+    margin-bottom: 20px
+}
+
+.footer-right-content span
+{
+    padding-left:10px;
+    margin-top:10px
+}
+
+.footer-mail-icon
+{
+    background:none transparent;
+    height:35px;
+    width:35px;
+    float:left
+}
+
+.footer-text
+{
+    float:right;
+    padding: 8px
+}
+
+.text-on-bg{background-color:#006699/*#1abc9c*/}
+.text-on-bg-CC3300{background-color: #CC3300}
+.text-on-bg-CC9900{background-color: #CC9900}
+.text-on-bg-669900{background-color: #669900}
+.text-on-bg-FF0000{background-color: #FF0000;}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  font-size: 18px;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s
+}
+
+.reach-me-form
+{
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: normal;
+  font-family:'Lato', sans-serif;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+    width: auto;
+    float: left;
+    background-color:#006699;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 3px
+}
+
+.btn:hover
+{
+    background-color: #fff;
+    color: #000
+}
+
+.btn-hg
+{
+    padding: 15px 20px 16px;
+    line-height: 22px
+}
+
+
+@media screen and (max-width:600px)
+{
+    .call-avaibility
+    {
+        margin-left: 30px
+    }
+    .cell-number
+    {
+        font-size: 20px
+    }
+    .navigation-div ul li a
+    {
+        /*margin: 50px;*/
+        height: 40px;
+        padding: 1px;
+        border-radius:2px;
+        margin-right: 0px;
+        line-height: 20px
+    }
+
+    .navigation-div ul
+    {
+        list-style:none;
+        display:block;
+        float: left
+    }
+    
+    .wrapper
+    {
+        display: none
+    }
+
+    .intro1, .intro2, .intro3, .intro4, .intro5, .intro6, .intro7
+    {
+        padding: 10px
+    }
+
+    #backkground-image-container img
+    {
+        display: none
+    }
+    #backkground-image-container
+    {
+        background:url('../images/Background/ParthMobile.jpg') no-repeat;
+        width: 100%;
+        height: 891px;
+        top: 0px;
+        position: fixed
+    }
+
+    .footer-right
+    {
+        float: left;
+        margin: 0 auto;
+        padding: 70px;
+        width: 67%;
+        min-width: 200px
+    }
+
+    .footer-left
+    {
+        padding: 20px;
+        padding: 10px
+    }
+
+    #eduDivLabel, #hobbiesDivLabel, #reachMeDivLabel, #expDivLabel
+    {
+        display: none
+    }
+    
+	.hobbies-text, .exp-text
+    {
+        width: 100%
+    }
+    
+}
+
+@media screen and (max-width: 360px)
+{
+    $menu_width: 20em;
+    
+    body
+    {
+        font-size:22px !important;
+        overflow-x:hidden;
+    }
+    .call-avaibility
+    {
+        margin-left: 30px
+    }
+    .navigation-div ul li a
+    {
+        margin-bottom: 10px;
+        height: 40px;
+        padding: 10px;
+        border-radius:2px;
+        margin-right: 0px;
+        margin: 10px
+    }
+    
+    .navigation-div ul li
+    {
+        //display:block
+    }
+    .navigation-div ul
+    {
+        line-height: 40px
+    }
+    
+    .navigation-div
+    {
+        width: 100%
+    }
+
+    .backkground-image-container img
+    {
+        display: none
+    }
+
+    .intro1, .intro2, .intro3, .intro4, .intro5, .intro6
+    {
+        padding: 10px;
+        font-size: 22px
+    }
+
+    .backkground-image-container
+    {
+        background-position: -150px 0px
+    }
+
+    .footer-right
+    {
+        padding: 20px;
+        min-width: 250px
+    }
+
+    .footer-left
+    {
+        margin-left: 5px
+    }
+
+    #eduDivLabel,#hobbiesDivLabel,#reachMeDivLabel,#expDivLabel
+    {
+        display: none
+    }
+
+    .hobbies-text, .exp-text
+    {
+        width: 100%
+    }
+
+    .btn
+    {
+        font-size: 22px
+    }
+
+    .contact-us
+    {
+        margin-right:0px;
+        margin-left:15px
+    }
+
+    .title-big
+    {
+        font-size: 22px;
+        margin-left:70px
+    }
+    nav[role="off-canvas"]{
+        position:absolute;
+        left: -20em;
+        opacity:0;
+        top: 0px;
+    }
+
+    nav[role="off-canvas"] > ul >li{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        margin: 0;
+    }
+
+    nav[role="off-canvas"]> &:hover
+    {
+        box-shadow:inset 0 0 0 .15em rgba(255, 255, 255, .45);
+    }
+
+    label{
+        display:block;
+    }
+
+    label:after{
+        position:absolute;
+        content:"\2261";
+        font-size: 1.8em;
+        top: 0;
+        right: .25em;
+    }
+
+    label:hover,input:checked ~ label
+    {
+        color: #000
+    }
+
+    input:checked ~ nav[role="off-canvas"]{
+        left: 0;
+        opacity:1;
+        box-shadow:-30em -30em 0 30em rgba(0, 0, 0, .3);
+    }
+
+    input:checked ~ .header{
+        //margin-top:10.5em;
+        margin-bottom:10.5em;
+    }       
+}
